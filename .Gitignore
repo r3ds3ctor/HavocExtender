@@ -1,0 +1,81 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.whl
+
+# Logs and database files
+logs/
+*.log
+*.sqlite
+*.db
+
+# System-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.iml
+
+# Python environment files
+*.env
+*.venv
+*.pyenv
+*.python-version
+
+# Havoc C2 artifacts
+*.bin
+*.exe
+*.dll
+*.so
+*.out
+*.o
+*.elf
+*.a
+*.lib
+*.map
+payloads/
+c2_profiles/
+configs/
+sessions/
+
+# Test-related files
+.coverage
+.tox/
+nosetests.xml
+test-reports/
+
+# Debugging
+debug.log
+debug_output.txt
+stacktrace.log
+
+# Scripts or temporary execution files
+*.sh~
+*.bak
+*.swp
+*.swo
+
+# Encryption keys or credentials (IMPORTANT!)
+secrets/
+*.pem
+*.crt
+*.key
+*.pfx
+id_rsa
+id_rsa.pub
