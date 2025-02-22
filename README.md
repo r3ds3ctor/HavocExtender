@@ -78,3 +78,6 @@ Contributions are welcome! Feel free to submit pull requests with improvements o
 
 ## License
 This project is licensed under the MIT License.
+
+##Author
+Alexander B
