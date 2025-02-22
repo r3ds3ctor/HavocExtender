@@ -1,4 +1,4 @@
-from havoc import Demon, RegisterCommand
+from havoc import Demon, RegisterCommand, Plugin
 import ctypes
 import os
 import platform
