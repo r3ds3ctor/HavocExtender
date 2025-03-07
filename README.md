@@ -67,14 +67,7 @@ HavocExtender/
 ### Post-Exploitation (`post_exploitation/`)
 - **Credential Dump (`credential_dump.py`)**: Extracts credentials from memory.
 - **Privilege Escalation (`privilege_escalation.py`)**: Exploits misconfigurations to gain elevated privileges.
-
-## Next Steps
-- Implement and validate all modules within Havoc C2.
-- Optimize execution to evade modern EDR solutions.
-- Publish repository on GitHub with comprehensive documentation.
-
-## Contributions
-Contributions are welcome! Feel free to submit pull requests with improvements or additional modules.
+- 
 
 ## License
 This project is licensed under the MIT License.
