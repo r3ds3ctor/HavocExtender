@@ -67,10 +67,80 @@ HavocExtender/
 ### Post-Exploitation (`post_exploitation/`)
 - **Credential Dump (`credential_dump.py`)**: Extracts credentials from memory.
 - **Privilege Escalation (`privilege_escalation.py`)**: Exploits misconfigurations to gain elevated privileges.
-- 
+
+## Installation and Usage
+
+1. **Clone the Repository**:
+   ```
+   git clone https://github.com/yourusername/HavocExtender.git
+   cd HavocExtender
+     ```
+2. **Install Dependencies:**
+Ensure you have Python 3.8+ installed. Install required dependencies using:
+  ```
+pip install -r requirements.txt
+  ```
+**Configure Havoc C2:**
+
+Ensure Havoc C2 is installed and running.
+Copy the modules from the src/ directory to the plugins/ directory of your Havoc C2 installation:
+
+```cp src/*.py /path/to/havoc/plugins/```
+
+3. **Load the Modules in Havoc C2**
+Start Havoc C2.
+
+**Use the loadplugin command to load the modules:**
+
+```loadplugin bypass_edr_av.py
+loadplugin process_injection.py
+loadplugin registry_persistence.py
+```
+Verify that the modules are loaded by using the help command.
+
+## Using the Modules
+Each module comes with its own set of commands. Use the help command to explore the available commands for each module.
+
+**Example: Using the Bypass EDR/AV Module**
+Disable AMSI:
+```
+bypass_amsi
+Inject a DLL into a remote process:
+```
+```
+inject_dll 1234 malicious.dll
+```
+## Troubleshooting
+Module Not Loading: Ensure the module files are in the plugins/ directory and that you have the required dependencies installed.
+Command Not Found: Verify that the module is loaded using the loadplugin command.
+**Run Tests:**
+Verify the functionality of the modules by running the test suite:
+
+  ```python -m pytest tests/   ```
+## Usage
+Load Modules in Havoc C2:
+
+Use the Havoc C2 interface to load the desired modules from the src/ directory.
+
+Configure module parameters as needed.
+
+**Examples:**
+
+For evasion techniques, refer to the examples/bypass_edr_av/ directory.
+
+For persistence, check the examples/persistence/ directory.
+
+## Documentation:
+Detailed usage instructions and tutorials are available in the docs/tutorials/ directory. 
 
 ## License
 This project is licensed under the MIT License.
 
 ## Author
 Alexander B
+
+## 🤝 Contributing
+This project thrives on community contributions. If you'd like to suggest improvements, report issues, or add new features, feel free to open a pull request.  
+If you’d like to support future development, you can do so here: 
+
+☕ [buymeacoffee.com/alexboteroh]
