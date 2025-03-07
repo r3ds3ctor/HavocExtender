@@ -1,4 +1,11 @@
+![image_fx_ (29)](https://github.com/user-attachments/assets/4b42e9eb-5fff-49dd-91b4-cdc53619f412)
+
+
+
 # HavocExtender - Advanced Extensions for Havoc C2
+
+HavocExtender is a collection of advanced modules and tools designed to extend the capabilities of Havoc C2, focusing on evasion, persistence, lateral movement, exfiltration, encryption, and post-exploitation. This project is intended for security professionals, red teamers, and researchers to enhance their offensive security operations.
+
 
 ## Project Structure
 ```
