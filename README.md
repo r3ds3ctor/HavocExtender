@@ -124,12 +124,6 @@ Use the Havoc C2 interface to load the desired modules from the src/ directory.
 
 Configure module parameters as needed.
 
-**Examples:**
-
-For evasion techniques, refer to the examples/bypass_edr_av/ directory.
-
-For persistence, check the examples/persistence/ directory.
-
 ## Documentation:
 Detailed usage instructions and tutorials are available in the docs/tutorials/ directory. 
 
